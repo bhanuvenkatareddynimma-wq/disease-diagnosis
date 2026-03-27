@@ -11,8 +11,8 @@ from email.mime.application import MIMEApplication
 from email.message import EmailMessage
 
 def send_email_full(receiver_email, patient_name, disease, confidence, medication, pdf_buffer=None):
-    sender_email = "udayasridurga20@gmail.com"  
-    app_password = "knjy uoka qrpg zzvc"   
+    sender_email = "d31520052@gmail.com"  
+    app_password = "kroiprnprhqltlsg"   
     msg = MIMEMultipart()
     msg['Subject'] = f"Diagnosis Report - {patient_name}"
     msg['From'] = f"Med-Diag <{sender_email}>"
